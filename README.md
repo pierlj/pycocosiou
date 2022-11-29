@@ -17,6 +17,7 @@ Add possibility to change params of criteria
 
 ## Installation notes
 
+Simply run the following command, pip will install dependancies and the package. 
 ```
 pip install git+https://github.com/pierlj/extended_pycocotools.git
 ```
