@@ -17,6 +17,8 @@ Add possibility to change params of criteria
 
 ## Installation notes
 
-'''
-git clone 
-'''
+```
+git clone git@github.com:pierlj/extended_pycocotools.git
+cd extended_pycocotools
+pip install .
+```
