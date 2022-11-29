@@ -18,7 +18,6 @@ setup(
     packages=['pycocosiou'],
     package_dir = {'pycocosiou': 'pycocosiou'},
     install_requires=[
-        'numpy',
         'setuptools>=18.0',
         'cython>=0.27.3',
         'matplotlib>=2.1.0'
