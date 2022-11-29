@@ -1,4 +1,4 @@
-# PyCOCOTools Extension
+# PyCOCOSIoU Extension
 
 This is a fork from [cocoapi repository](https://github.com/cocodataset/cocoapi). More specifically, it is a fork of the Python API provided by the original authors. 
 
@@ -18,7 +18,5 @@ Add possibility to change params of criteria
 ## Installation notes
 
 ```
-git clone git@github.com:pierlj/extended_pycocotools.git
-cd extended_pycocotools
-pip install .
+pip install git+https://github.com/pierlj/extended_pycocotools.git
 ```
