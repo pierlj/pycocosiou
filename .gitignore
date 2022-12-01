@@ -1,0 +1,3 @@
+dist/*
+pycocosiou.egg-info/*
+build/*
