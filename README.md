@@ -19,5 +19,10 @@ Add possibility to change params of criteria
 
 Simply run the following command, pip will install dependancies and the package. Only `numpy` must be installed beforehand.
 ```
+pip install pycocosiou
+```
+
+It is also possible to install directly from the sources in this repository: 
+```
 pip install git+https://github.com/pierlj/extended_pycocotools.git
 ```
