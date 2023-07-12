@@ -26,3 +26,14 @@ It is also possible to install directly from the sources in this repository:
 ```
 pip install git+https://github.com/pierlj/extended_pycocotools.git
 ```
+
+## Usage 
+
+Simply replace `pycocotools` imports in your script with `pycocosiou`. For instance `from pycocotools.cocoeval import COCOeval` becomes `from pycocosiou.cocoeval import COCOeval`. 
+
+Then, you can change the box similarity criterion employed to determine what boxes are correct or not by passing a `criterion` argument when creating the `COCOeval` object:
+```
+cocoeval_iou = COCOeval(coco_gt, coco_dt, iou_type) # default setting uses IoU
+cocoeval_siou = COCOeval(coco_gt, coco_dt, iou_type, criterion='siou') # use SIoU instead
+cocoeval_nwd = COCOeval(coco_gt, coco_dt, iou_type, criterion='nwd') # use NWD instead
+```
